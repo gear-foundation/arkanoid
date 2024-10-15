@@ -1,0 +1,9 @@
+[package]
+name = "arkanoid"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ggez = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
