@@ -177,9 +177,6 @@ impl Game {
         Events::GameStep {
             ball: self.ball.clone(),
             paddle: self.paddle.clone(),
-            wall_collision,
-            paddle_collision,
-            block_hit,
         }
     }
 }

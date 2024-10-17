@@ -24,9 +24,6 @@ pub enum Events {
     GameStep {
         ball: Ball,
         paddle: Paddle,
-        wall_collision: Option<String>,
-        paddle_collision: bool,
-        block_hit: Option<(i16, i16)>,
     },
 }
 
